@@ -1,0 +1,22 @@
+body{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    text-transform: capitalize;
+}
+.container{
+    background-image: linear-gradient(to right,#1fa0ff , #12dafb , #a7fdcc)
+}
+label{
+    font-size: larger;
+    font-weight: 800;
+}
+.btn{
+    font-size: larger;
+    font-weight: 700;
+}
+.alert{
+    direction: rtl;
+}

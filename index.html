@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="py-3">
+        <div class="container my-3">
+            <h1 class="mt-3">i phone</h1>
+            <label for="n" class="form-label mt-2">model</label>
+            <input type="text" id="n" class="form-control mt-2">
+
+            <label for="m" class="form-label mt-2">mone</label>
+            <input type="text" id="m" class="form-control mt-2">
+
+            <label for="cr" class="form-label mt-2">color</label>
+            <input type="text" id="cr" class="form-control mt-2">
+
+            <label for="cm" class="form-label mt-2">comanet</label>
+            <input type="text" id="cm" class="form-control mt-2">
+
+            <label for="cn" class="form-label mt-2">cawent</label>
+            <input type="number" id="cn" class="form-control mt-2 w-25">
+
+            <button onclick="home()" id="add" class="btn btn-success mt-3">add ail</button>
+            <button onclick="btnDelete()" id="delete" class="btn btn-danger mt-3">delete ail</button>
+
+            <div id="alert" class="container mt-3"></div>
+
+            <table class="table text-center table-bordered mt-4 ">
+                <thead class="table-dark">
+                    <th>id</th>
+         
+                    <th>model</th>
+                    <th>mone</th>
+                    <th>color</th>
+                    <th>comanet</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </thead>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                        <td>a</td>
+                        <td> <button class="btn btn-warning">update</button> </td>
+                        <td> <button class="btn btn-danger">delete</button> </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="test.js"></script>
+</body>
+</html>
